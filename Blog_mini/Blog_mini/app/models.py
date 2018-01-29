@@ -352,8 +352,8 @@ class BlogInfo(db.Model):
 
     @staticmethod
     def insert_blog_info():
-        blog_mini_info = BlogInfo(title=u'开源博客系统Blog_mini',
-                                  signature=u'让每个人都轻松拥有可管理的个人博客！— By xpleaf',
+        blog_mini_info = BlogInfo(title=u'zhtsky的博客 form Blog_mini',
+                                  signature=u'Life is short, use python!',
                                   navbar='inverse')
         db.session.add(blog_mini_info)
         db.session.commit()
